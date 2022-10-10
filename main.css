@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    background: rgba(24, 24, 24, 0.96);
+}
+.img {
+    width: 100%;
+    height: 500px;
+
+    position: absolute;
+    z-index: 1;
+}
+.bg img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+}
+.container {
+    position: relative;
+    padding: 20px 304px;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.left img {
+    width: 72px;
+    height: 69px;
+    top: 3px;
+    left: 306px;
+}
+#shop {
+    position: absolute;
+    font-size: 30px;
+    color: #FFF;
+    right: 363px;
+    z-index: 100;
+    top: 20px;
+    cursor: pointer;
+}
+#drobdv {
+    width: 34px;
+    height: 34px;
+    right: 307px;
+    z-index: 100;
+    top: 20px;
+    cursor: pointer;
+}
+.container h2 {
+    position: absolute;
+    top: 175px;
+    left: 302px;
+    z-index: 100;
+    color: #FFFFFF;
+}
+#minus, #pulus {
+    width: 100px;
+height: 40px;
+cursor: pointer;
+border: 1px solid #02E602;
+border-radius: 16px;
+color: #02E602;
+background-color: inherit;
+    position: absolute;
+    z-index: 100;
+    top: 300px;
+}
+#pulus {
+    left: 450px;
+}
+#number {
+    font-size: 18px;
+    position: absolute;
+    right: 370px;
+    top: 5px;
+    color: rgb(252, 3, 3);
+    z-index: 100;
+}
+.madal {
+    width: 271px;
+    padding-top: 24px;
+    padding-left: 35px;
+    background: rgba(24, 24, 24, 0.95);
+position: absolute;
+top: 80px;
+right: 300px;
+z-index: 200;
+}
+.madal1 {
+    display: flex;
+    margin-bottom: 36px;
+    position: relative;
+}
+.madal1 img {
+    position: absolute;
+    left: -50px;
+}
+.madal1 h2 {
+    font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.none {
+    display: none;
+}
