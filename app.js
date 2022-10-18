@@ -5,7 +5,7 @@ const pulus = document.getElementById("pulus");
 const number = document.getElementById("number");
 const modal = document.querySelector(".madal");
 const none = document.querySelector('.none');
-let add_number = 1;
+let add_number = 0;
 minus.addEventListener("click", () => {
     add_number++
   number.innerText = add_number;
